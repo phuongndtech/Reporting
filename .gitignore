@@ -402,3 +402,4 @@ FodyWeavers.xsd
 /src/Reporting.Domain/obj/Debug/net8.0/Reporting.Domain.dll
 /src/Reporting.Domain/obj/Debug/net8.0/Reporting.Domain.pdb
 /src/Reporting.Infrastructure/obj/Debug/net8.0/ref/Reporting.Infrastructure.dll
+/src/Reporting.Application/obj/Debug/net8.0/Reporting.Application.csproj.CoreCompileInputs.cache
