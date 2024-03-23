@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xxgsKA6zZUPeaspgu/9wAIeXciB5AYjpQ8ulCZKn64D5rgeF54Fqy1ncugy7WqHThhrxeSKii6awmi7MiV2gag==",
+  "dgSpecHash": "clZc6ofiWxW/POwJzDhnV1c56TPK+w2ZmXuQRm16xG6V3PT8P+Ir0w7LRJL1mzLb1F3cRyzjWL536PkJsrQZGw==",
   "success": true,
-  "projectFilePath": "D:\\Reporting\\src\\Reporting.Api\\Reporting.Api.csproj",
+  "projectFilePath": "D:\\Projects\\Reporting\\src\\Reporting.Api\\Reporting.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

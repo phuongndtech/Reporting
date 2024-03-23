@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Reporting\\src\\Reporting.Domain\\Reporting.Domain.csproj",
+      "projectUniqueName": "D:\\Projects\\Reporting\\src\\Reporting.Domain\\Reporting.Domain.csproj",
       "projectName": "Reporting.Domain",
-      "projectPath": "D:\\Reporting\\src\\Reporting.Domain\\Reporting.Domain.csproj",
+      "projectPath": "D:\\Projects\\Reporting\\src\\Reporting.Domain\\Reporting.Domain.csproj",
       "packagesPath": "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\",
-      "outputPath": "D:\\Reporting\\src\\Reporting.Domain\\obj\\",
+      "outputPath": "D:\\Projects\\Reporting\\src\\Reporting.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PHUONGND_TECH\\AppData\\Roaming\\NuGet\\NuGet.Config",

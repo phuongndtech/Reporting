@@ -3140,11 +3140,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Reporting\\src\\Reporting.Api\\Reporting.Api.csproj",
+      "projectUniqueName": "D:\\Projects\\Reporting\\src\\Reporting.Api\\Reporting.Api.csproj",
       "projectName": "Reporting.Api",
-      "projectPath": "D:\\Reporting\\src\\Reporting.Api\\Reporting.Api.csproj",
+      "projectPath": "D:\\Projects\\Reporting\\src\\Reporting.Api\\Reporting.Api.csproj",
       "packagesPath": "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\",
-      "outputPath": "D:\\Reporting\\src\\Reporting.Api\\obj\\",
+      "outputPath": "D:\\Projects\\Reporting\\src\\Reporting.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PHUONGND_TECH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3162,14 +3162,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj": {
-              "projectPath": "D:\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj"
+            "D:\\Projects\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj": {
+              "projectPath": "D:\\Projects\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj"
             },
-            "D:\\Reporting\\src\\Reporting.Domain\\Reporting.Domain.csproj": {
-              "projectPath": "D:\\Reporting\\src\\Reporting.Domain\\Reporting.Domain.csproj"
+            "D:\\Projects\\Reporting\\src\\Reporting.Domain\\Reporting.Domain.csproj": {
+              "projectPath": "D:\\Projects\\Reporting\\src\\Reporting.Domain\\Reporting.Domain.csproj"
             },
-            "D:\\Reporting\\src\\Reporting.Infrastructure\\Reporting.Infrastructure.csproj": {
-              "projectPath": "D:\\Reporting\\src\\Reporting.Infrastructure\\Reporting.Infrastructure.csproj"
+            "D:\\Projects\\Reporting\\src\\Reporting.Infrastructure\\Reporting.Infrastructure.csproj": {
+              "projectPath": "D:\\Projects\\Reporting\\src\\Reporting.Infrastructure\\Reporting.Infrastructure.csproj"
             }
           }
         }

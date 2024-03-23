@@ -65,11 +65,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj",
+      "projectUniqueName": "D:\\Projects\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj",
       "projectName": "Reporting.Application",
-      "projectPath": "D:\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj",
+      "projectPath": "D:\\Projects\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj",
       "packagesPath": "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\",
-      "outputPath": "D:\\Reporting\\src\\Reporting.Application\\obj\\",
+      "outputPath": "D:\\Projects\\Reporting\\src\\Reporting.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PHUONGND_TECH\\AppData\\Roaming\\NuGet\\NuGet.Config",

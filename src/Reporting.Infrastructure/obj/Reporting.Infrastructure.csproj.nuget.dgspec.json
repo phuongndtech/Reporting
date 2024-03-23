@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Reporting\\src\\Reporting.Infrastructure\\Reporting.Infrastructure.csproj": {}
+    "D:\\Projects\\Reporting\\src\\Reporting.Infrastructure\\Reporting.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj": {
+    "D:\\Projects\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj",
+        "projectUniqueName": "D:\\Projects\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj",
         "projectName": "Reporting.Application",
-        "projectPath": "D:\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj",
+        "projectPath": "D:\\Projects\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj",
         "packagesPath": "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\",
-        "outputPath": "D:\\Reporting\\src\\Reporting.Application\\obj\\",
+        "outputPath": "D:\\Projects\\Reporting\\src\\Reporting.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PHUONGND_TECH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "D:\\Reporting\\src\\Reporting.Infrastructure\\Reporting.Infrastructure.csproj": {
+    "D:\\Projects\\Reporting\\src\\Reporting.Infrastructure\\Reporting.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Reporting\\src\\Reporting.Infrastructure\\Reporting.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Projects\\Reporting\\src\\Reporting.Infrastructure\\Reporting.Infrastructure.csproj",
         "projectName": "Reporting.Infrastructure",
-        "projectPath": "D:\\Reporting\\src\\Reporting.Infrastructure\\Reporting.Infrastructure.csproj",
+        "projectPath": "D:\\Projects\\Reporting\\src\\Reporting.Infrastructure\\Reporting.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\",
-        "outputPath": "D:\\Reporting\\src\\Reporting.Infrastructure\\obj\\",
+        "outputPath": "D:\\Projects\\Reporting\\src\\Reporting.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PHUONGND_TECH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -96,8 +96,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj": {
-                "projectPath": "D:\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj"
+              "D:\\Projects\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj": {
+                "projectPath": "D:\\Projects\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj"
               }
             }
           }

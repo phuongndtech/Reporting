@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Reporting\\",
+  "WorkspaceRootPath": "D:\\Projects\\Reporting\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89AFD6BE-C88B-4D5A-8949-C1B3EEC6C202}|src\\Reporting.Api\\Reporting.Api.csproj|d:\\reporting\\src\\reporting.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89AFD6BE-C88B-4D5A-8949-C1B3EEC6C202}|src\\Reporting.Api\\Reporting.Api.csproj|d:\\projects\\reporting\\src\\reporting.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89AFD6BE-C88B-4D5A-8949-C1B3EEC6C202}|src\\Reporting.Api\\Reporting.Api.csproj|solutionrelative:src\\reporting.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,12 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -44,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\Reporting\\src\\Reporting.Api\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Projects\\Reporting\\src\\Reporting.Api\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "src\\Reporting.Api\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\Reporting\\src\\Reporting.Api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Projects\\Reporting\\src\\Reporting.Api\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "src\\Reporting.Api\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
