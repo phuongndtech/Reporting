@@ -366,5 +366,5 @@ FodyWeavers.xsd
 /src/OAuthServer/temp
 /.vs/
 /.vs/
-/src/Reporting.Api/bin/
-/src/Reporting.Api/obj/
+/src/Reporting.Api/bin/**
+/src/Reporting.Api/obj/**
