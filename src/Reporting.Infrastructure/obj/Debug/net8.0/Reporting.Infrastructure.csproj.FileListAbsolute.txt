@@ -16,7 +16,6 @@ D:\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastruct
 D:\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastructure.genruntimeconfig.cache
 D:\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\ref\Reporting.Infrastructure.dll
 D:\Projects\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\Reporting.Infrastructure.deps.json
-D:\Projects\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\Reporting.Infrastructure.runtimeconfig.json
 D:\Projects\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\Reporting.Infrastructure.dll
 D:\Projects\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\Reporting.Infrastructure.pdb
 D:\Projects\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\Reporting.Application.dll
@@ -31,7 +30,6 @@ D:\Projects\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reportin.333
 D:\Projects\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastructure.dll
 D:\Projects\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\refint\Reporting.Infrastructure.dll
 D:\Projects\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastructure.pdb
-D:\Projects\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastructure.genruntimeconfig.cache
 D:\Projects\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\ref\Reporting.Infrastructure.dll
 D:\Projects\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\ExternalData\restaurant-1-orders.csv
 D:\Projects\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\ExternalData\restaurant-1-products-price.csv
