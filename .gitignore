@@ -367,3 +367,15 @@ FodyWeavers.xsd
 /getway/conf.d/upstream.conf
 /getway/conf.d/api_gateway.conf
 /src/OAuthServer/temp
+/.vs/Reporting.Api/v17/.suo
+/.vs/Reporting.Api/v17/DocumentLayout.json
+/src/Reporting.Api/bin/Debug/net8.0/Reporting.Api.dll
+/src/Reporting.Api/bin/Debug/net8.0/Reporting.Api.exe
+/src/Reporting.Api/bin/Debug/net8.0/Reporting.Api.pdb
+/src/Reporting.Api/obj/Debug/net8.0/Reporting.Api.AssemblyInfo.cs
+/src/Reporting.Api/obj/Debug/net8.0/Reporting.Api.AssemblyInfoInputs.cache
+/src/Reporting.Api/obj/Debug/net8.0/Reporting.Api.dll
+/src/Reporting.Api/obj/Debug/net8.0/Reporting.Api.pdb
+/src/Reporting.Api/obj/Debug/net8.0/apphost.exe
+/src/Reporting.Api/obj/Debug/net8.0/refint/Reporting.Api.dll
+/src/Reporting.Api/obj/Debug/net8.0/ref/Reporting.Api.dll
