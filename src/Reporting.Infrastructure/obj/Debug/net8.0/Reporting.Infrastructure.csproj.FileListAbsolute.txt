@@ -1,0 +1,17 @@
+D:\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastructure.csproj.AssemblyReference.cache
+D:\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastructure.AssemblyInfoInputs.cache
+D:\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastructure.AssemblyInfo.cs
+D:\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\Reporting.Infrastructure.deps.json
+D:\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\Reporting.Infrastructure.runtimeconfig.json
+D:\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\Reporting.Infrastructure.dll
+D:\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\Reporting.Infrastructure.pdb
+D:\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\Reporting.Application.dll
+D:\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\Reporting.Application.pdb
+D:\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reportin.333D3C80.Up2Date
+D:\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastructure.dll
+D:\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\refint\Reporting.Infrastructure.dll
+D:\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastructure.pdb
+D:\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastructure.genruntimeconfig.cache
+D:\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\ref\Reporting.Infrastructure.dll

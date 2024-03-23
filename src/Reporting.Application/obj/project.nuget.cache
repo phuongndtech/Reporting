@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "M2EKPAs0++dCNFuaKs5OE7Zvm2OKJdJQQueu7SpwqtxIA9FG3f23CjqaOXYKib5K4MePbxTrbOnSiaQqAfjIeg==",
+  "success": true,
+  "projectFilePath": "D:\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

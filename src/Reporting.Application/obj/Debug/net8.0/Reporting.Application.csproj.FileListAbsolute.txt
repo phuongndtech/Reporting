@@ -1,0 +1,12 @@
+D:\Reporting\src\Reporting.Application\bin\Debug\net8.0\Reporting.Application.deps.json
+D:\Reporting\src\Reporting.Application\bin\Debug\net8.0\Reporting.Application.dll
+D:\Reporting\src\Reporting.Application\bin\Debug\net8.0\Reporting.Application.pdb
+D:\Reporting\src\Reporting.Application\obj\Debug\net8.0\Reporting.Application.csproj.AssemblyReference.cache
+D:\Reporting\src\Reporting.Application\obj\Debug\net8.0\Reporting.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Reporting\src\Reporting.Application\obj\Debug\net8.0\Reporting.Application.AssemblyInfoInputs.cache
+D:\Reporting\src\Reporting.Application\obj\Debug\net8.0\Reporting.Application.AssemblyInfo.cs
+D:\Reporting\src\Reporting.Application\obj\Debug\net8.0\Reporting.Application.csproj.CoreCompileInputs.cache
+D:\Reporting\src\Reporting.Application\obj\Debug\net8.0\Reporting.Application.dll
+D:\Reporting\src\Reporting.Application\obj\Debug\net8.0\refint\Reporting.Application.dll
+D:\Reporting\src\Reporting.Application\obj\Debug\net8.0\Reporting.Application.pdb
+D:\Reporting\src\Reporting.Application\obj\Debug\net8.0\ref\Reporting.Application.dll
