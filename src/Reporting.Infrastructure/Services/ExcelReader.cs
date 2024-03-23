@@ -9,7 +9,7 @@ public class ExcelReader : IExcelReader
 {
     public Task<List<Order>> GetOrders(RestaurantType type)
     {
-        var fileName = $"restaurant-{type}-orders.csv";
+        var fileName = $"restaurant-{(int)type}-orders.csv";
 
         var currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
