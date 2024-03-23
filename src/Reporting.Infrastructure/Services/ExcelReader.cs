@@ -49,6 +49,37 @@ public class ExcelReader : IExcelReader
 
     public Task<List<ProductPrice>> GetProductPrices(RestaurantType type)
     {
-        throw new NotImplementedException();
+        var fileName = $"restaurant-{(int)type}-products-price.csv";
+
+        var currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
+
+        var folderPath = Path.Combine(currentDirectory, "ExternalData");
+
+        var filePath = Path.Combine(folderPath, fileName);
+
+        if (!File.Exists(filePath))
+        {
+            throw new FileNotFoundException($"The excel file {fileName} was not found");
+        }
+
+        var results = new List<ProductPrice>();
+
+        var workbook = new Workbook(filePath);
+
+        var worksheet = workbook.Worksheets[0];
+
+        int rows = worksheet.Cells.MaxDataRow + 1;
+
+        for (int row = 1; row < rows; row++)
+        {
+            var productPrice = new ProductPrice
+            {
+                ItemName = worksheet.Cells[row, 0].StringValue,
+                Price = Convert.ToDouble(worksheet.Cells[row, 1].Value)
+            };
+            results.Add(productPrice);
+        }
+
+        return Task.FromResult(results);
     }
 }

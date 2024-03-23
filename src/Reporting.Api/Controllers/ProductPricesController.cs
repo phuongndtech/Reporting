@@ -1,13 +1,13 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Reporting.Application.Common.Enums;
-using Reporting.Application.Features.Orders.Queries;
+using Reporting.Application.Features.ProductPrices.Queries;
 
 namespace Reporting.Api.Controllers;
 
-[Route("api/[controller]")]
+[Route("api/product-prices")]
 [ApiController]
-public class OrdersController(IMediator mediator) : ControllerBase
+public class ProductPricesController(IMediator mediator) : ControllerBase
 {
     private readonly IMediator _mediator = mediator;
 
