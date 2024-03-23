@@ -404,3 +404,4 @@ FodyWeavers.xsd
 /src/Reporting.Infrastructure/obj/Debug/net8.0/ref/Reporting.Infrastructure.dll
 /src/Reporting.Application/obj/Debug/net8.0/Reporting.Application.csproj.CoreCompileInputs.cache
 /src/Reporting.Infrastructure/obj/Debug/net8.0/Reporting.Infrastructure.csproj.CoreCompileInputs.cache
+/.vs/Reporting.Api/DesignTimeBuild/.dtbcache.v2

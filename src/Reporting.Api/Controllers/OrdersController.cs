@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Reporting.Application.Common.Enums;
+using Reporting.Application.Common.Models;
 using Reporting.Application.Features.Orders.Queries;
 
 namespace Reporting.Api.Controllers;
@@ -12,11 +12,13 @@ public class OrdersController(IMediator mediator) : ControllerBase
     private readonly IMediator _mediator = mediator;
 
     [HttpGet]
-    public async Task<IActionResult> Get([FromQuery] RestaurantType type)
+    public async Task<IActionResult> Get([FromQuery] RequestBase request)
     {
         var result = await _mediator.Send(new GetList.Query
         {
-            RestaurantType = type
+            Type = request.Type,
+            PageNumber = request.PageNumber,
+            PageSize = request.PageSize
         });
 
         return Ok(result);
