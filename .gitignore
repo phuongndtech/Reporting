@@ -393,3 +393,12 @@ FodyWeavers.xsd
 /src/Reporting.Infrastructure/bin/Debug/net8.0/Reporting.Infrastructure.pdb
 /src/Reporting.Application/obj/Debug/net8.0/refint/Reporting.Application.dll
 /src/Reporting.Domain/obj/Debug/net8.0/refint/Reporting.Domain.dll
+/src/Reporting.Application/obj/Debug/net8.0/Reporting.Application.AssemblyInfo.cs
+/src/Reporting.Application/obj/Debug/net8.0/Reporting.Application.AssemblyInfoInputs.cache
+/src/Reporting.Application/obj/Debug/net8.0/Reporting.Application.dll
+/src/Reporting.Application/obj/Debug/net8.0/Reporting.Application.pdb
+/src/Reporting.Domain/obj/Debug/net8.0/Reporting.Domain.AssemblyInfo.cs
+/src/Reporting.Domain/obj/Debug/net8.0/Reporting.Domain.AssemblyInfoInputs.cache
+/src/Reporting.Domain/obj/Debug/net8.0/Reporting.Domain.dll
+/src/Reporting.Domain/obj/Debug/net8.0/Reporting.Domain.pdb
+/src/Reporting.Infrastructure/obj/Debug/net8.0/ref/Reporting.Infrastructure.dll
