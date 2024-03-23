@@ -33,3 +33,9 @@ D:\Projects\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\refint\Repor
 D:\Projects\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastructure.pdb
 D:\Projects\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\Reporting.Infrastructure.genruntimeconfig.cache
 D:\Projects\Reporting\src\Reporting.Infrastructure\obj\Debug\net8.0\ref\Reporting.Infrastructure.dll
+D:\Projects\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\ExternalData\restaurant-1-orders.csv
+D:\Projects\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\ExternalData\restaurant-1-products-price.csv
+D:\Projects\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\ExternalData\restaurant-2-orders.csv
+D:\Projects\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\ExternalData\restaurant-2-products-price.csv
+D:\Projects\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\Reporting.Domain.dll
+D:\Projects\Reporting\src\Reporting.Infrastructure\bin\Debug\net8.0\Reporting.Domain.pdb

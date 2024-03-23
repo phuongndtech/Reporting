@@ -153,3 +153,15 @@ D:\Projects\Reporting\src\Reporting.Api\obj\Debug\net8.0\refint\Reporting.Api.dl
 D:\Projects\Reporting\src\Reporting.Api\obj\Debug\net8.0\Reporting.Api.pdb
 D:\Projects\Reporting\src\Reporting.Api\obj\Debug\net8.0\Reporting.Api.genruntimeconfig.cache
 D:\Projects\Reporting\src\Reporting.Api\obj\Debug\net8.0\ref\Reporting.Api.dll
+D:\Projects\Reporting\src\Reporting.Api\bin\Debug\net8.0\ExternalData\restaurant-1-orders.csv
+D:\Projects\Reporting\src\Reporting.Api\bin\Debug\net8.0\ExternalData\restaurant-1-products-price.csv
+D:\Projects\Reporting\src\Reporting.Api\bin\Debug\net8.0\ExternalData\restaurant-2-orders.csv
+D:\Projects\Reporting\src\Reporting.Api\bin\Debug\net8.0\ExternalData\restaurant-2-products-price.csv
+D:\Projects\Reporting\src\Reporting.Api\bin\Debug\net8.0\Aspose.Cells.dll
+D:\Projects\Reporting\src\Reporting.Api\bin\Debug\net8.0\MediatR.dll
+D:\Projects\Reporting\src\Reporting.Api\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\Projects\Reporting\src\Reporting.Api\bin\Debug\net8.0\SkiaSharp.dll
+D:\Projects\Reporting\src\Reporting.Api\bin\Debug\net8.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\Projects\Reporting\src\Reporting.Api\bin\Debug\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\Projects\Reporting\src\Reporting.Api\bin\Debug\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\Projects\Reporting\src\Reporting.Api\bin\Debug\net8.0\runtimes\win-x86\native\libSkiaSharp.dll

@@ -23,3 +23,6 @@ D:\Projects\Reporting\src\Reporting.Application\obj\Debug\net8.0\Reporting.Appli
 D:\Projects\Reporting\src\Reporting.Application\obj\Debug\net8.0\refint\Reporting.Application.dll
 D:\Projects\Reporting\src\Reporting.Application\obj\Debug\net8.0\Reporting.Application.pdb
 D:\Projects\Reporting\src\Reporting.Application\obj\Debug\net8.0\ref\Reporting.Application.dll
+D:\Projects\Reporting\src\Reporting.Application\bin\Debug\net8.0\Reporting.Domain.dll
+D:\Projects\Reporting\src\Reporting.Application\bin\Debug\net8.0\Reporting.Domain.pdb
+D:\Projects\Reporting\src\Reporting.Application\obj\Debug\net8.0\Reportin.A8C3EFA9.Up2Date

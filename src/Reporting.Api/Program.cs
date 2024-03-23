@@ -1,6 +1,7 @@
-using Reporting.Application;
 using Reporting.Api.Extensions;
+using Reporting.Application;
 using Reporting.Infrastructure;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
