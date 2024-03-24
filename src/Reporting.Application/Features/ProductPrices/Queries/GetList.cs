@@ -8,7 +8,10 @@ namespace Reporting.Application.Features.ProductPrices.Queries;
 
 public class GetList
 {
-    public class Query: RequestBase, IRequest<Result>;
+    public class Query : RequestBase, IRequest<Result>
+    {
+        public double? Price { get; set; }
+    }
 
     public class Result
     {

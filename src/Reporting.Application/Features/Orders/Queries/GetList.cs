@@ -8,7 +8,11 @@ namespace Reporting.Application.Features.Orders.Queries;
 
 public class GetList
 {
-    public class Query : RequestBase, IRequest<Result>;
+    public class Query : RequestBase, IRequest<Result>
+    {
+        public double? ProductPrice { get; set; }
+        public int? OrderNumber { get; set; }
+    }
 
     public class Result
     {
@@ -25,8 +29,28 @@ public class Handler(IExcelReader excelReader) : IRequestHandler<Query, Result>
     {
         var orders = await _excelReader.GetOrders(request.Type);
 
-     //   var data = orders.Skip(request.PageNumber).Take(request.PageSize).ToList();
+        var dataFilter = orders.AsQueryable();
 
-        return new Result { Orders = orders, TotalCount = orders.Count };
+        if (!string.IsNullOrWhiteSpace(request.SearchText))
+        {
+            dataFilter = dataFilter
+                .Where(x => x.ItemName.Equals(request.SearchText, StringComparison.OrdinalIgnoreCase));
+        }
+
+        if (request.ProductPrice.HasValue)
+        {
+            dataFilter = dataFilter
+                .Where(x => x.ProductPrice == request.ProductPrice);
+        }
+
+        if (request.OrderNumber.HasValue)
+        {
+            dataFilter = dataFilter
+                .Where(x => x.OrderNumber == request.OrderNumber);
+        }
+
+        var result = dataFilter.ToList();
+
+        return new Result { Orders = result, TotalCount = result.Count };
     }
 }

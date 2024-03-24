@@ -12,11 +12,13 @@ public class OrdersController(IMediator mediator) : ControllerBase
     private readonly IMediator _mediator = mediator;
 
     [HttpGet]
-    public async Task<IActionResult> Get([FromQuery] RequestBase request)
+    public async Task<IActionResult> Get([FromQuery] OrderRequest request)
     {
         var result = await _mediator.Send(new GetList.Query
         {
-            Type = request.Type
+            Type = request.Type,
+            OrderNumber = request.OrderNumber,
+            SearchText = request.SearchText
         });
 
         return Ok(result);
