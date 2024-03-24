@@ -24,8 +24,6 @@ public class Handler(IExcelReader excelReader) : IRequestHandler<Query, Result>
     {
         var productPrices = await _excelReader.GetProductPrices(request.Type);
 
-        var data = productPrices.Skip(request.PageNumber).Take(request.PageSize).ToList();
-
-        return new Result { ProductPrices = data };
+        return new Result { ProductPrices = productPrices };
     }
 }

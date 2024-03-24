@@ -25,8 +25,8 @@ public class Handler(IExcelReader excelReader) : IRequestHandler<Query, Result>
     {
         var orders = await _excelReader.GetOrders(request.Type);
 
-        var data = orders.Skip(request.PageNumber).Take(request.PageSize).ToList();
+     //   var data = orders.Skip(request.PageNumber).Take(request.PageSize).ToList();
 
-        return new Result { Orders = data, TotalCount = orders.Count };
+        return new Result { Orders = orders, TotalCount = orders.Count };
     }
 }

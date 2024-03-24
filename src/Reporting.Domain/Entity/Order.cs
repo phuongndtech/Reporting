@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-
-namespace Reporting.Domain.Entity;
+﻿namespace Reporting.Domain.Entity;
 
 public class Order
 {

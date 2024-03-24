@@ -16,9 +16,7 @@ public class OrdersController(IMediator mediator) : ControllerBase
     {
         var result = await _mediator.Send(new GetList.Query
         {
-            Type = request.Type,
-            PageNumber = request.PageNumber,
-            PageSize = request.PageSize
+            Type = request.Type
         });
 
         return Ok(result);
