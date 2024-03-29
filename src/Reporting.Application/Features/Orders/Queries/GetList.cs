@@ -10,7 +10,7 @@ public class GetList
 {
     public class Query : RequestBase, IRequest<Result>
     {
-        public double? ProductPrice { get; set; }
+        public decimal? ProductPrice { get; set; }
         public int? OrderNumber { get; set; }
     }
 

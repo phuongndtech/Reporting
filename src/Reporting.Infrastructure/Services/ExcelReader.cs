@@ -38,7 +38,7 @@ public class ExcelReader : IExcelReader
                 OrderDate = Convert.ToDateTime(worksheet.Cells[row, 1].Value),
                 ItemName = worksheet.Cells[row, 2].StringValue,
                 Quantity = Convert.ToInt32(worksheet.Cells[row, 3].Value),
-                ProductPrice = Convert.ToDouble(worksheet.Cells[row, 4].Value),
+                ProductPrice = Convert.ToDecimal(worksheet.Cells[row, 4].Value),
                 TotalProducts = Convert.ToInt32(worksheet.Cells[row, 5].Value)
             };
             results.Add(order);
