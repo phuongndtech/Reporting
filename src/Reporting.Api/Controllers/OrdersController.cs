@@ -21,6 +21,6 @@ public class OrdersController(IMediator mediator) : ControllerBase
             SearchText = request.SearchText
         });
 
-        return Ok(result);
+        return Ok(result.Orders.OrderBy(x=>x.OrderNumber));
     }
 }
