@@ -31,10 +31,12 @@ public class Handler(IExcelReader excelReader) : IRequestHandler<Query, Result>
 
         var dataFilter = orders.AsQueryable();
 
-        if (!string.IsNullOrWhiteSpace(request.SearchText))
+        if (!string.IsNullOrWhiteSpace(request.SearchText) && !request.SearchText.Equals("undefined"))
         {
+            var trimData = request.SearchText.Trim();
+
             dataFilter = dataFilter
-                .Where(x => x.ItemName.Equals(request.SearchText, StringComparison.OrdinalIgnoreCase));
+                .Where(x => x.ItemName.Equals(trimData, StringComparison.OrdinalIgnoreCase));
         }
 
         if (request.ProductPrice.HasValue)

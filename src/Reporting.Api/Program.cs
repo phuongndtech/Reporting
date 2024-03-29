@@ -14,6 +14,8 @@ builder.Services.AddCors(options =>
         });
 });
 
+builder.Services.AddMemoryCache();
+
 builder.Services.AddApplication();
 
 builder.Services.AddInfrastructure();
@@ -23,6 +25,7 @@ builder.Services.AddControllers();
 var app = builder.Build();
 
 app.UseHttpsRedirection();
+
 app.UseCors("AllowLocalhost4200");
 
 app.MapControllers();

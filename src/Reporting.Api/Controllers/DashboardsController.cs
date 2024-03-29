@@ -1,21 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Reporting.Application.Common.Enums;
 using Reporting.Application.Common.Interfaces;
+using Microsoft.Extensions.Caching.Memory;
+using Reporting.Domain.Entity;
 
 namespace Reporting.Api.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class DashboardsController(IExcelReader excel) : ControllerBase
+public class DashboardsController(IExcelReader excel, IMemoryCache memoryCache) : ControllerBase
 {
     private readonly IExcelReader _excelReader = excel;
+
+    private readonly IMemoryCache _memoryCache = memoryCache;
 
     [HttpGet("revenue-period")]
     public async Task<IActionResult> GetRevenueByPeriod()
     {
-        var restaurantOneOrderData = await _excelReader.GetOrders(RestaurantType.One);
+        var restaurantOneOrderData = await GetCachedOrders(RestaurantType.One);
 
-        var restaurantTwoOrderData = await _excelReader.GetOrders(RestaurantType.Two);
+        var restaurantTwoOrderData = await GetCachedOrders(RestaurantType.Two);
 
         var currentYear = 0;
 
@@ -90,8 +94,9 @@ public class DashboardsController(IExcelReader excel) : ControllerBase
     [HttpGet("current-year")]
     public async Task<IActionResult> GetCurrentYear()
     {
-        var restaurantOneOrderData = await _excelReader.GetOrders(RestaurantType.One);
-        var restaurantTwoOrderData = await _excelReader.GetOrders(RestaurantType.Two);
+        var restaurantOneOrderData = await GetCachedOrders(RestaurantType.One);
+
+        var restaurantTwoOrderData = await GetCachedOrders(RestaurantType.Two);
 
         var currentYear = 0;
 
@@ -113,9 +118,9 @@ public class DashboardsController(IExcelReader excel) : ControllerBase
 
     public async Task<IActionResult> GetTopProductByRevenue()
     {
-        var restaurantOneOrderData = await _excelReader.GetOrders(RestaurantType.One);
+        var restaurantOneOrderData = await GetCachedOrders(RestaurantType.One);
 
-        var restaurantTwoOrderData = await _excelReader.GetOrders(RestaurantType.Two);
+        var restaurantTwoOrderData = await GetCachedOrders(RestaurantType.Two);
 
         var currentYear = 0;
 
@@ -161,9 +166,9 @@ public class DashboardsController(IExcelReader excel) : ControllerBase
     [HttpGet("restaurant-revenue")]
     public async Task<IActionResult> GetRestaurantRevenue()
     {
-        var restaurantOneOrderData = await _excelReader.GetOrders(RestaurantType.One);
+        var restaurantOneOrderData = await GetCachedOrders(RestaurantType.One);
 
-        var restaurantTwoOrderData = await _excelReader.GetOrders(RestaurantType.Two);
+        var restaurantTwoOrderData = await GetCachedOrders(RestaurantType.Two);
 
         var allOrders = restaurantOneOrderData.Concat(restaurantTwoOrderData);
 
@@ -197,6 +202,20 @@ public class DashboardsController(IExcelReader excel) : ControllerBase
         compareRevenue.Restaurant2 = [.. compareRevenue.Restaurant2.OrderBy(x => x.Year)];
 
         return Ok(compareRevenue);
+    }
+
+    private async Task<List<Order>> GetCachedOrders(RestaurantType restaurantType)
+    {
+        string cacheKey = $"Orders_{restaurantType}";
+
+        if (!_memoryCache.TryGetValue(cacheKey, out List<Order> orders))
+        {
+            orders = await _excelReader.GetOrders(restaurantType);
+
+            _memoryCache.Set(cacheKey, orders);
+        }
+
+        return orders;
     }
 }
 
