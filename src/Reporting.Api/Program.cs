@@ -5,10 +5,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowLocalhost4200",
+    options.AddPolicy("Access-Control-Allow-Origin",
         builder =>
         {
-            builder.WithOrigins("http://localhost:4200")
+            builder.WithOrigins("*")
                    .AllowAnyHeader()
                    .AllowAnyMethod();
         });
@@ -26,7 +26,7 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 
-app.UseCors("AllowLocalhost4200");
+app.UseCors("Access-Control-Allow-Origin");
 
 app.MapControllers();
 
