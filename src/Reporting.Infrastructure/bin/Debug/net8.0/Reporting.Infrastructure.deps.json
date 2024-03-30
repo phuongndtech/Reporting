@@ -124,6 +124,7 @@
       },
       "Reporting.Application/1.0.0": {
         "dependencies": {
+          "Aspose.Cells": "24.3.0",
           "MediatR": "12.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
           "Reporting.Domain": "1.0.0"

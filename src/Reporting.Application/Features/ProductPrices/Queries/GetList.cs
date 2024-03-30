@@ -2,7 +2,6 @@
 using Reporting.Application.Common.Interfaces;
 using Reporting.Application.Common.Models;
 using Reporting.Domain.Entity;
-using static Reporting.Application.Features.ProductPrices.Queries.GetList;
 
 namespace Reporting.Application.Features.ProductPrices.Queries;
 
@@ -17,16 +16,16 @@ public class GetList
     {
         public List<ProductPrice> ProductPrices { get; set; }
     }
-}
 
-public class Handler(IExcelReader excelReader) : IRequestHandler<Query, Result>
-{
-    private readonly IExcelReader _excelReader = excelReader;
-
-    public async Task<Result> Handle(Query request, CancellationToken cancellationToken)
+    public class Handler(IExcelReader excelReader) : IRequestHandler<Query, Result>
     {
-        var productPrices = await _excelReader.GetProductPrices(request.Type);
+        private readonly IExcelReader _excelReader = excelReader;
 
-        return new Result { ProductPrices = productPrices };
+        public async Task<Result> Handle(Query request, CancellationToken cancellationToken)
+        {
+            var productPrices = await _excelReader.GetProductPricesAsync(request.Type);
+
+            return new Result { ProductPrices = productPrices };
+        }
     }
 }

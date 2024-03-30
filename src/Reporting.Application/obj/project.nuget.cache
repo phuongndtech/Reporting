@@ -1,12 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "NuwC8M6E8W+3twNgIGWKVyt1jwmHhJisffJOoBuyTTwg1cq/LW0M3oDLXAMRczJK6GcUjjd17oqF2HH1OThdmQ==",
+  "dgSpecHash": "ep+iqttmziU2KY6F/ftEcQsUpo60xzY1xeuZEnDN72F2Czds3wETjZDaUG5kG4o8IyYyVISLS/+8i7s/GLegJw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Reporting\\src\\Reporting.Application\\Reporting.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\aspose.cells\\24.3.0\\aspose.cells.24.3.0.nupkg.sha512",
     "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
+    "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\skiasharp\\2.88.6\\skiasharp.2.88.6.nupkg.sha512",
+    "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.6\\skiasharp.nativeassets.macos.2.88.6.nupkg.sha512",
+    "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.6\\skiasharp.nativeassets.win32.2.88.6.nupkg.sha512",
+    "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\system.formats.asn1\\6.0.0\\system.formats.asn1.6.0.0.nupkg.sha512",
+    "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.3\\system.security.cryptography.pkcs.6.0.3.nupkg.sha512",
+    "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

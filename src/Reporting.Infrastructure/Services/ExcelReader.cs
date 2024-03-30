@@ -7,7 +7,7 @@ namespace Reporting.Infrastructure.Services;
 
 public class ExcelReader : IExcelReader
 {
-    public Task<List<Order>> GetOrders(RestaurantType type)
+    public Task<List<Order>> GetOrdersAsync(RestaurantType type)
     {
         var fileName = $"restaurant-{(int)type}-orders.csv";
 
@@ -47,7 +47,7 @@ public class ExcelReader : IExcelReader
         return Task.FromResult(results);
     }
 
-    public Task<List<ProductPrice>> GetProductPrices(RestaurantType type)
+    public Task<List<ProductPrice>> GetProductPricesAsync(RestaurantType type)
     {
         var fileName = $"restaurant-{(int)type}-products-price.csv";
 
@@ -81,5 +81,27 @@ public class ExcelReader : IExcelReader
         }
 
         return Task.FromResult(results);
+    }
+
+    public void PopulateFile(Worksheet sheet, List<Order> orders)
+    {
+        sheet.Cells["A1"].PutValue("Order Number");
+        sheet.Cells["B1"].PutValue("Order Date");
+        sheet.Cells["C1"].PutValue("Item Name");
+        sheet.Cells["D1"].PutValue("Quantity");
+        sheet.Cells["E1"].PutValue("Product Price");
+        sheet.Cells["F1"].PutValue("Total Products");
+
+        int row = 2;
+        foreach (var order in orders)
+        {
+            sheet.Cells[$"A{row}"].PutValue(order.OrderNumber);
+            sheet.Cells[$"B{row}"].PutValue(order.OrderDate.ToString("yyyy-MM-dd"));
+            sheet.Cells[$"C{row}"].PutValue(order.ItemName);
+            sheet.Cells[$"D{row}"].PutValue(order.Quantity);
+            sheet.Cells[$"E{row}"].PutValue(order.ProductPrice);
+            sheet.Cells[$"F{row}"].PutValue(order.TotalProducts);
+            row++;
+        }
     }
 }

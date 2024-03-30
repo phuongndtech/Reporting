@@ -213,7 +213,7 @@ public class DashboardsController(IExcelReader excel, IMemoryCache memoryCache) 
 
         if (!_memoryCache.TryGetValue(cacheKey, out List<Order> orders))
         {
-            orders = await _excelReader.GetOrders(restaurantType);
+            orders = await _excelReader.GetOrdersAsync(restaurantType);
 
             _memoryCache.Set(cacheKey, orders);
         }
