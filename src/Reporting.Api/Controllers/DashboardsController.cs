@@ -15,6 +15,7 @@ public class DashboardsController(IExcelReader excel, IMemoryCache memoryCache) 
     private readonly IMemoryCache _memoryCache = memoryCache;
 
     [HttpGet("revenue-period")]
+    [ProducesResponseType(typeof(RevenuePeriodChart), 200)]
     public async Task<IActionResult> GetRevenueByPeriod()
     {
         var restaurantOneOrderData = await GetCachedOrders(RestaurantType.One);
@@ -92,6 +93,7 @@ public class DashboardsController(IExcelReader excel, IMemoryCache memoryCache) 
     }
 
     [HttpGet("current-year")]
+    [ProducesResponseType(typeof(int), 200)]
     public async Task<IActionResult> GetCurrentYear()
     {
         var restaurantOneOrderData = await GetCachedOrders(RestaurantType.One);
@@ -115,7 +117,7 @@ public class DashboardsController(IExcelReader excel, IMemoryCache memoryCache) 
     }
 
     [HttpGet("top-product")]
-
+    [ProducesResponseType(typeof(TopProductRevenueChart), 200)]
     public async Task<IActionResult> GetTopProductByRevenue()
     {
         var restaurantOneOrderData = await GetCachedOrders(RestaurantType.One);
@@ -164,6 +166,7 @@ public class DashboardsController(IExcelReader excel, IMemoryCache memoryCache) 
     }
 
     [HttpGet("restaurant-revenue")]
+    [ProducesResponseType(typeof(CompareRevenueChart), 200)]
     public async Task<IActionResult> GetRestaurantRevenue()
     {
         var restaurantOneOrderData = await GetCachedOrders(RestaurantType.One);

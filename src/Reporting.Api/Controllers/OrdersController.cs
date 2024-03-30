@@ -18,6 +18,7 @@ public class OrdersController(IMediator mediator, IExcelReader excelReader) : Co
     private readonly IExcelReader _excelReader = excelReader;
 
     [HttpGet]
+    [ProducesResponseType(typeof(GetList.Result), 200)]
     public async Task<IActionResult> Get([FromQuery] OrderRequest request)
     {
         var result = await _mediator.Send(new GetList.Query
@@ -45,6 +46,10 @@ public class OrdersController(IMediator mediator, IExcelReader excelReader) : Co
         PopulateSheetWithData(restaurantOneSheet, restaurantOneOrderData);
 
         PopulateSheetWithData(restaurantTwoSheet, restaurantTwoOrderData);
+
+        Worksheet defaultSheet = workbook.Worksheets["Sheet1"];
+
+        if (defaultSheet != null) workbook.Worksheets.RemoveAt(defaultSheet.Index);
 
         MemoryStream stream = new();
 
