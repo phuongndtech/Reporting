@@ -405,3 +405,11 @@ FodyWeavers.xsd
 /src/Reporting.Application/obj/Debug/net8.0/Reporting.Application.csproj.CoreCompileInputs.cache
 /src/Reporting.Infrastructure/obj/Debug/net8.0/Reporting.Infrastructure.csproj.CoreCompileInputs.cache
 /.vs/Reporting.Api/DesignTimeBuild/.dtbcache.v2
+/.vs/ProjectEvaluation/reporting.api.metadata.v7.bin
+/.vs/ProjectEvaluation/reporting.api.projects.v7.bin
+/.vs/Reporting.Api/v17/.futdcache.v2
+/src/Reporting.Api/obj/Debug/net8.0/Reporting.Api.csproj.FileListAbsolute.txt
+/src/Reporting.Application/obj/Debug/net8.0/Reporting.Application.csproj.AssemblyReference.cache
+/src/Reporting.Application/obj/Debug/net8.0/Reporting.Application.csproj.FileListAbsolute.txt
+/src/Reporting.Domain/obj/Debug/net8.0/Reporting.Domain.csproj.FileListAbsolute.txt
+/src/Reporting.Infrastructure/obj/Debug/net8.0/Reporting.Infrastructure.csproj.FileListAbsolute.txt
