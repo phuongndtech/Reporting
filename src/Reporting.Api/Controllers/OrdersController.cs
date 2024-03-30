@@ -1,19 +1,15 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using Reporting.Application.Common.Interfaces;
-using Reporting.Application.Common.Models;
-using Reporting.Application.Features.Orders.Queries;
+﻿using Reporting.Application.Features.Orders.Queries;
 using System.Net.Mime;
 
 namespace Reporting.Api.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class OrdersController(IMediator mediator, IExcelReader excelReader) : ControllerBase
+public class OrdersController(IMediator mediator) : ControllerBase
 {
-    private readonly IMediator _mediator = mediator;
+    private const string FileName = "restaurant_data.xlsx";
 
-    private readonly IExcelReader _excelReader = excelReader;
+    private readonly IMediator _mediator = mediator;
 
     [HttpGet]
     [ProducesResponseType(typeof(GetList.Result), 200)]
@@ -26,16 +22,17 @@ public class OrdersController(IMediator mediator, IExcelReader excelReader) : Co
             SearchText = request.SearchText
         });
 
-        return Ok(result.Orders.OrderBy(x=>x.OrderNumber));
+        return Ok(result.Orders.OrderBy(x => x.OrderNumber));
     }
 
     [HttpGet("export")]
+    [ProducesResponseType(typeof(Export.Result), 200)]
     public async Task<IActionResult> Export()
     {
         var result = await _mediator.Send(new Export.Query());
 
         result.FileStream.Position = 0;
 
-         return File(result.FileStream, MediaTypeNames.Application.Octet, "restaurant_data.xlsx");
+        return File(result.FileStream, MediaTypeNames.Application.Octet, FileName);
     }
 }

@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "yihs6phlnrWu8nS2YQySpLbUuOnbv3n06cKyw9qb7PXokpSDXXITzNHdcEtdMfJB2idQVsJqz6PqsWBPDtOGhw==",
+  "dgSpecHash": "Am1TauzrwSi3iouWl8QokEiRQ7a7VuZTdLRlWIGIqxvy8lCtgxjsGQqQ/Y1OD2bPn4zkwB/Hxv1/jzuM2adM9w==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Reporting\\src\\Reporting.Api\\Reporting.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\aspose.cells\\24.3.0\\aspose.cells.24.3.0.nupkg.sha512",
     "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\skiasharp\\2.88.6\\skiasharp.2.88.6.nupkg.sha512",
     "C:\\Users\\PHUONGND_TECH\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.6\\skiasharp.nativeassets.macos.2.88.6.nupkg.sha512",

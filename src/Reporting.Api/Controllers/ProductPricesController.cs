@@ -1,7 +1,4 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using Reporting.Application.Common.Models;
-using Reporting.Application.Features.ProductPrices.Queries;
+﻿using Reporting.Application.Features.ProductPrices.Queries;
 
 namespace Reporting.Api.Controllers;
 
